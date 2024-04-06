@@ -1,0 +1,31 @@
+[package]
+name = "sr_algo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+names = "0.14.0"
+rand = "0.9.0-alpha.1"
+
+[[bin]]
+name = "stack"
+path = "bin/stack.rs"
+
+[[bin]]
+name = "queue"
+path = "bin/queue.rs"
+
+[[bin]]
+name = "unions"
+path = "bin/unions.rs"
+
+[[bin]]
+name = "parentheses"
+path = "bin/parentheses.rs"
+
+[[bin]]
+name = "bst"
+path = "bin/bst.rs"
+
